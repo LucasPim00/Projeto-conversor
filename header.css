@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+header
+    {width: 100%;
+    background-color: rgb(83, 231, 162);
+    padding: 20px;}
+
+header h1
+    {color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;}

@@ -24,7 +24,60 @@ input, select, button
     font-size: 1em;
     box-shadow: 0px 0px 2px black;
 
-    transition: 1s ease-in-out;}
+    transition: 0.5s ease-in-out;}
 
 input:focus, select:focus
     {box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.400);}
+
+main
+    {width: 65%;    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+
+form
+    {width: 100%;
+    margin-bottom: 12%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.imputs
+    {width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8%;}
+
+.form-group
+    {display: flex;
+    flex-direction: column;}
+
+.form-group label
+    {color:black;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 6px;}
+
+form button
+    {background-color: rgb(83, 231, 162);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    cursor: pointer;}
+
+form button:hover
+    {background-color: white;
+    color:rgb(83, 231, 162);}
+
+main #result
+    {font-size: 3.5em;
+    color: rgba(44, 204, 12, 0.801);}
+
+main #result span
+    {font-size: 0.6em;
+    margin-right: 50px;
+    margin-left: 50px;}
