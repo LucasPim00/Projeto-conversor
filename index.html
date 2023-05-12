@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https: //fonts.googleapis.com/css2?family= Poppins:wght@500; 600 ;700 & display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Conversor de Moeda</h1>
+    </header>
+
+    <main>
+        <form id="form">
+
+            <section class="imputs">
+                <div class="form-group">
+                    <label for="valor">Valor a ser convertido (R$)</label>
+                    <input type="number"
+                    placeholder="R$20,00"
+                    id="valor"
+                    name="valor"
+                    max="10000000">
+                </div>
+
+                <div class="form-group">
+                    <label for="currency">Escolha a moeda</label>
+                    <select id="currency">
+                        <option value="">Selecione...</option>
+                        <option value="dolar">Dólar</option>
+                        <option value="euro">Euro</option>
+                        <option value="libra">Libra</option>
+                        <option value="lene">Lene</option>
+                        <option value="franco">Franco Suíço</option>
+                        <option value="yuan">Yuan</option>
+                        <option value="lira">Lira Turca</option>
+                    </select>
+                </div>
+            </section>
+
+            <button type="submit">Converter</button>
+        </form>
+        <h2 id="result"></h2>
+    </main>
+
+    <footer>
+        <span>
+            &copy; Conversor, maio de 2023. Todos os direitos reservados.
+        </span>
+    </footer>
+</body>
+</html>
